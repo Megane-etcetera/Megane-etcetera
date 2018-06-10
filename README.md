@@ -1,2 +1,2 @@
 # Megane-etcetera
-pull test
+pull test pull test
