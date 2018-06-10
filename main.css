@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* admin.html用 */
+.admin_top{
+    background-color: sandybrown;
+    width: 100%;
+}
+.admin_menu_box{
+    background-color: cyan;
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.user_search_box{
+    background-color: whitesmoke;
+    height: 30px;
+    width: 200px;
+    float: left;
+}
+.user_search_icon{
+    background-color: gray;
+    height: 30px;
+    width: 45px;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+}
+.admin_menu{
+    /* list-style-type: hiragana-iroha; */
+    list-style-type: none;
+    background-color: blue;
+}
+.admin_menu_list{
+    background-color: pink;
+    padding-bottom: 5px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.syouhintouroku_base{
+    background-color: red;
+    width: 100%;
+}
+.syouhintouroku_box{
+    background-color: yellow;
+    margin: 0 auto;
+    width: 60%;
+}
+.jacket{
+    height: 500px;
+    width: 30%;
+    float: left;
+    background-color: aqua;
+    padding-top: 50px;
+}
+.product_info{
+    height: 500px;
+    width: 70%;
+    padding-top: 50px;
+    display: inline-block;
+    background-color: chartreuse;
+}
+.product_hozon{
+    width: 60%;
+    margin: 0 auto;
+    background-color: violet;
+    text-align: center;
+}
+.product_hozon button{
+    font-size: 24px;
+}
+
+/* Disc_Track_touroku.html */
+
+.disc_track_touroku_base{
+    width: 100%;
+    background-color: coral;
+    padding: 50px 0;
+}
+.disc_touroku{
+    width: 90%;
+    background-color: aquamarine;
+    margin: 0 auto;
+    border: 1px solid;
+}
+.d_disc{
+    display: inline;
+    margin-right: 10px;
+}
+.d_type{
+    display: inline;
+    margin-right: 10px;
+}
+.track_touroku{
+    width: 90%;
+    margin: 0 auto;
+    background-color: gold;
+    border: 1px solid;
+}
+.track_number{
+    float: left;
+    width: 20%;
+}
+.track_name_box{
+    float: left;
+    width: 40%;
+}
+.artist_name_box{
+    float: left;
+    width: 40%;
+}
+.disc_track_submit{
+    margin-top: 30px;
+    text-align: center;
+}
+.disc_track_submit button{
+    font-size: 24px;
+}
+
+/* contact_ichiran */
+
+.contact_base{
+    width: 100%;
+    background-color: honeydew;
+}
+.contact_base table{
+    width: 100%;
+    border-color: rgb(187, 187, 187);
+    table-layout: fixed;
+}
+.th_contact_user{
+    width: 12%;
+}
+.th_contact_category{
+    width: 12%;
+}
+.th_contact_date{
+    width: 12%;
+}
+.th_contact_text{
+    width: 64%;
+}
+.open_contacts{
+    width: 90%;
+    margin: 0 auto;
+    background-color: navajowhite;
+}
+.processing_contacts{
+    width: 90%;
+    margin: 0 auto;
+    background-color: thistle;
+}
+.all_contacts{
+    font-size: 20px;
+    margin: 20px 0 0 20px;
+}
+
+/* product_stock.html */
+
+.product_stock_base{
+    background-color: gold;
+    width: 100%;
+}
+.stock_table{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+    background-color: aquamarine;
+}
+.stock_table table{
+    width: 100%;
+}
+.p_s_pagi{
+    text-align: center;
+}
+
+/* user_ichiran.html */
+.user_ichiran_base{
+    background-color: gold;
+    width: 100%;
+}
+.users_table{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+    background-color: aquamarine;
+}
+.users_table table{
+    width: 100%;
+}

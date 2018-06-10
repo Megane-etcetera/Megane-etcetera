@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="disc_track_touroku_base">
+        <div class="product_name">
+            商品名　○○○○
+        </div>
+        <div class="disc_touroku">
+            <p class="d_disc">Disc</p><input type="number" value="1" min="1" max="10">
+            <button>Discを削除</button>
+            <p class="d_type">Type</p><select name="disc_type">
+                <option value="CD">CD</option>
+                <option value="DVD">DVD</option>
+                <option value="Blu-ray">Blu-ray</option>
+            </select>
+            <div class="track_touroku clearfix">
+                <div class="track_number">
+                    <p>トラックナンバー</p>
+                    <input type="number" value="1" min="1" max="50">
+                    <button>トラックを削除</button>
+                </div>
+                <div class="track_name_box">
+                    <p class="track_name">曲名</p>
+                    <textarea name="track_name" cols="50" rows="2"></textarea>
+                    <p class="track_name_kana">曲名カナ</p>
+                    <textarea name="track_name_kana" cols="50" rows="2"></textarea>
+                </div>
+                <div class="artist_name_box">
+                    <p class="artist_name">アーティスト名</p>
+                    <textarea name="artist_name" cols="50" rows="2"></textarea>
+                    <p class="artist_name_kana">アーティスト名カナ</p>
+                    <textarea name="artist_name_kana" cols="50" rows="2"></textarea>
+                </div>
+            </div>
+            <button class="add_track">トラックを追加</button>
+        </div>
+        <div class="disc_track_submit">
+            <button class="add_disc">Discを追加</button>
+            <button>保存</button>
+        </div>
+    </div>
+</body>
+</html>
