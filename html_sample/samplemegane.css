@@ -1,0 +1,24 @@
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+
+      .header{
+      	height: 20px;
+      	width: 100%;
+      	color: red;
+      }
+
+      .body{
+      	height: 240px;
+      	width: 80%;
+      	color: blue;
+      	margin: 0 auto;
+      }
+
+      .footer{
+      	height: 20px;
+      	width: 100%;
+      	color: green;
+      }
