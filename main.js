@@ -21,6 +21,7 @@ $(document).ready(function () {
             .end()
             // 表示追加
             .insertBefore('.disc_track_submit');
+        trackNo = 1;
         discNo++;
     });
 
