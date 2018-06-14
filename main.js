@@ -2,7 +2,7 @@ $(document).ready(function () {
     var discNo = 1;
     var trackNo = 1;
 
-    $('.disc_track_submit').on('click', function () {
+    $('.add_disc_button').on('click', function () {
         $('div#AddDisc')
             // コピー処理
             .clone(true)
@@ -10,6 +10,7 @@ $(document).ready(function () {
             .removeAttr("id")
             // 非表示解除
             .removeClass("notdisp")
+            // トラック追加ボタンの名前を変える
             .find('button[class=temprate_add_track_button]')
             .removeClass('temprate_add_track_button')
             .addClass('add_track_button')
@@ -23,7 +24,7 @@ $(document).ready(function () {
         discNo++;
     });
 
-    $('.add_track_button').on('click', function () {
+    $(document).on('click', '.add_track_button', function () {
         $('div#AddTrack')
             // コピー処理
             .clone(true)
@@ -36,7 +37,7 @@ $(document).ready(function () {
             .attr('value', 1 + trackNo)
             .end()
             // 表示追加
-            .insertBefore('.add_track_button');
+            .insertBefore(this);
         trackNo++;
     });
 
