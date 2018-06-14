@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header{
+	height: 150px;
+	width: 100%;
+	background-color: white;
+	margin-bottom: 20px;
+}
+header{
+	height: 150px;
+	width: 100%;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+/* ヘッダー*/
+.lscn-box{
+	height: 100px;
+	width: 1000px;
+	margin:  0 auto;
+}
+.logo{
+	height: 100px;
+	width:300px;
+	background-image: url(img/test3.png);
+	background-size: cover;
+	float: left;
+}
+.s-box{
+	height: 90px;
+	width: 340px;
+	float: left;
+	margin:10px 0 0 10px; 
+}
+.s-form{
+	height: 28px;
+	width: 300px;
+}
+.s-op{
+	float: left;
+	height: 22px;
+	margin-top:5px;
+}
+.s-button{
+	float: right;
+	height: 22px;
+	width:35px;
+	margin: 5px 40px 0 0;
+}
+.cart{
+	height: 96px;
+	width: 346px;
+	float:left;
+	margin-top: 10px;
+	border: 2px solid #000000;
+}
+.cart-left{
+	height: 90px;
+	width: 70px;
+	float: left;
+}
+.i-box{
+	margin: 0 auto;
+	width: 57px;
+	text-align: center;
+}
+.carticon{
+	font-size: 50px;
+}
+.cart-right{
+	height: 86px;
+	width:270px;
+	padding: 5px 0 0 50px;
+	float: right;
+}
+.nav-list{
+	float: left;
+	height: 40px;
+	width: 1000px;
+	text-align: center;
+	margin-top: 10px;
+	
+}
+.nav-list-item{
+	height: 40px;
+	width: 200px;
+	margin: 0 24px 0 24px;
+	list-style: none;
+  	float: left;
+  	padding: 12px 0;
+  	background-color: white;
+  	
+}
+.border-box{
+	float: left;
+	height: 50px;
+	border-left: 2px solid #000000;
+}
+
+.toppage{
+	width: 1000px;
+	margin: 0 auto;
+}
+.top-cm{
+	height: 325px;
+	width: 1000px;
+	margin-bottom: 40px;
+}
+.cm1{
+	height: 325px;
+	width: 1000px;
+	background-image: url(img/live.jpg);
+	background-size: cover;
+}
+.cm2{
+	height: 325px;
+	width: 1000px;
+	background-image: url(img/megane.png);
+	background-size: cover;
+}
+.cm3{
+	height: 325px;
+	width: 1000px;
+	background-image: url(img/neko.jpg);
+	background-size: cover;
+}
+.cm4{
+	height: 325px;
+	width: 1000px;
+	background-image: url(img/make.jpg);
+	background-size: cover;
+}
+.top-new{
+	height: 36px;
+}
+.new-box{
+	height: 325px;
+	width: 1000px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+.product-box{
+	height: 325px;
+	width: 235px;
+	float: left;
+	margin-right: 20px;
+}
+.product-box4{
+	height: 325px;
+	width: 235px;
+	float: left;
+}
+.p-image{
+	height: 235px;
+	width: 235px;
+	background-image: url(img/cdimage.png);
+	background-size: cover;
+	margin-top: 10px;
+}
+.p-stat{
+	height: 70px;
+	width: 235px;
+	background-color: whitesmoke;
+	margin-top:10px;
+}
+footer{
+	width: 100%;
+}
+.sicn{
+	height: 250px;
+	width: 1000px;
+	margin: 0 auto;
+}
+.f-nav{
+	height: 50px;
+	width: 1000px
+}
+.f-nav-list{
+	height: 50px;
+	width: 1000px;
+	text-align: center;
+	float: left;
+}
+.f-nav-list-item{
+	height: 50px;
+	width: 200px;
+	list-style: none;
+  	float: left;
+  	padding: 12px 0;
+  	background-color: white;
+}
+.kabusiki{
+	height: 150px;
+	width: 300px;
+	float: left;
+}
+.f-icon-box{
+	height: 150px;
+	width: 380px;
+	float: left;
+}
+.f-icon1{
+	font-size: 70px;
+	margin:40px 0 40px 47px;
+}
+.f-icon2{
+	font-size: 70px;
+	margin:40px 0 40px 47px;
+}
+.f-icon3{
+	font-size: 70px;
+	margin:40px 0 40px 47px;
+}
+.contact{
+	height: 150px;
+	width: 320px;
+	float: left;
+}
+h1{
+	margin: 50px 0;
+}
+.aaa{
+	text-align: center;
+}

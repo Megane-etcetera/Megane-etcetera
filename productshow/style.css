@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header{
+	height: 150px;
+	width: 100%;
+	background-color: midnightblue;
+	margin-bottom: 40px;
+}
+.lscn-box{
+	height: 150px;
+	width: 1000px;
+	margin:  0 auto;
+}
+.logo{
+	height: 150px;
+	width:300px;
+	float: left;
+}
+.ll{
+	height: 150px;
+	width:150px;
+	background-image: url(img/ll.png);
+	background-size: cover;
+	float: left;
+}
+.lr{
+	height: 150px;
+	width: 150px;
+	color: white;
+	float: left;
+	font-size: 30px;
+	padding-top: 30px;
+}
+.s-box{
+	height: 90px;
+	width: 340px;
+	float: left;
+	margin:10px 0 0 10px; 
+}
+.s-form{
+	height: 28px;
+	width: 300px;
+}
+.s-op{
+	height: 22px;
+	margin-top:5px;
+}
+.s-button{
+	height: 22px;
+	width:35px;
+	margin-top: 5px;
+}
+.cart{
+	height: 90px;
+	width: 350px;
+	float:left;
+	margin-top: 10px;
+	border: inset;
+	color: white;
+}
+.cart-left{
+	height: 90px;
+	width: 70px;
+	float: left;
+}
+.i-box{
+	margin: 0 auto;
+	width: 57px;
+	text-align: center;
+}
+.carticon{
+	font-size: 50px;
+}
+.cart-right{
+	height: 90px;
+	width:274px;
+	padding: 5px 0 0 50px;
+	float: left;
+}
+.nav-list{
+	height: 50px;
+	width: 700px;
+	color: whitesmoke;
+	text-align: center;
+	float: left;
+}
+.nav-list-item{
+	height: 50px;
+	width: 175px;
+	list-style: none;
+  	float: left;
+  	padding: 12px 0;
+  	border: inset;
+}
+.product-show-box{
+	width: 1000px;
+	margin:0 auto;
+}
+
+.p-inbc{
+	height: 406px;
+	width: 1000px;
+	margin-bottom:40px;
+}
+.p-title{
+	width: 300px;
+	background-color: whitesmoke;
+	margin-bottom: 10px;
+}
+.product-image{
+	width: 360px;
+	height: 360px;
+	float: left;
+	background-image: url(img/cdimage.png);
+	background-size: cover;
+	margin-right: 20px;
+}
+.p-nb{
+	height: 360px;
+	width: 400px;
+	margin-right: 20px;
+	float: left;
+}
+.product-name{
+	height: 63px;
+	width: 400px;
+	background-color: whitesmoke;
+	margin-bottom: 20px;
+}
+.benefit{
+	height: 277px;
+	width: 400px;
+	background-color: whitesmoke;
+}
+.cart-box{
+	height: 360px;
+	width: 200px;
+	float: left;
+	background-color: green;
+}
+.p-stat{
+	height: 210px;
+	width: 1000px;
+	margin-bottom: 40px;
+}
+.p-info{
+	height: 160px;
+	width: 1000px;
+}
+table , td, th {
+	border: 1px solid #595959;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 3px;
+	width: 125px;
+	height: 25px;
+}
+th {
+	background: #f0e6cc;
+}
+.even {
+	background: #fbf8f0;
+}
+.odd {
+	background: #fefcf9;
+}
+.p-music{
+height: 360px;
+width: 100px;
+margin-bottom: 40px;
+}
+.p-music-table{
+	height: 320px;
+	width:  1000px;
+}
+.p-review-box{
+	height: 750px;
+	width: 1000px;
+	margin-bottom: 40px;
+}
+.post-review{
+	height: 300px;
+	width: 1000px;
+	background-color: whitesmoke;
+	border: outset;
+	margin-bottom: 20px;
+}
+footer{
+	width: 100%;
+}
+.sicn{
+	height: 250px;
+	width: 1000px;
+	margin: 0 auto;
+}
+.f-nav{
+	height: 50px;
+	width: 1000px
+}
+.f-nav-list{
+	height: 50px;
+	width: 1000px;
+	text-align: center;
+	float: left;
+}
+.f-nav-list-item{
+	height: 50px;
+	width: 200px;
+	list-style: none;
+  	float: left;
+  	padding: 12px 0;
+  	background-color: white;
+}
+.kabusiki{
+	height: 150px;
+	width: 300px;
+	float: left;
+}
+.f-icon-box{
+	height: 150px;
+	width: 380px;
+	float: left;
+}
+.f-icon1{
+	font-size: 70px;
+	margin:40px 0 40px 47px;
+}
+.f-icon2{
+	font-size: 70px;
+	margin:40px 0 40px 47px;
+}
+.f-icon3{
+	font-size: 70px;
+	margin:40px 0 40px 47px;
+}
+.contact{
+	height: 150px;
+	width: 320px;
+	float: left;
+}
+.aaa{
+	text-align: center;
+}
