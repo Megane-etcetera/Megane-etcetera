@@ -125,20 +125,21 @@ header{
 	list-style: none;
   	float: left;
   	line-height: 40px;
-  	background-color: white;
+	background-color: darkolivegreen;
+	color: white;
 }
 .nav-list-item:hover{
-	background-color: #c7c7c7;
+	background-color: olive;
 }
 #header_genres{
 	list-style: none;
-	background-color: #c7c7c7;
+	background-color: darkolivegreen;
 	width: 20%;
 	position: absolute;
 	z-index: 51;
 }
 #header_genres li:hover{
-	background-color: aliceblue;
+	background-color: olivedrab;
 }
 
 /* 商品詳細ページ */
