@@ -340,7 +340,7 @@ table{
 .address-edit-btn{
 	float: left;
 	width: 95px;
-    display: inline-block;
+    /* display: inline-block; */
     margin: 5px 5px 0 0;
     padding: 0.5em 1em;
     text-decoration: none;
