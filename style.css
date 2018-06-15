@@ -140,6 +140,9 @@ header{
 #header_genres li:hover{
 	background-color: aliceblue;
 }
+
+/* 商品詳細ページ */
+
 .product-show-box{
 	width: 80%;
 	margin:0 auto;
@@ -238,6 +241,7 @@ margin-bottom: 40px;
 	border-left: 2px solid #000000;
 }
 
+/* トップページ */
 .toppage{
 	width: 80%;
 	margin: 0 auto;
@@ -278,7 +282,6 @@ margin-bottom: 40px;
 .new-box{
 	height: 325px;
 	width: 100%;
-	background-color: white;
 	margin-bottom: 10px;
 }
 .product-box{
