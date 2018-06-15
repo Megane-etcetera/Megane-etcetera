@@ -133,7 +133,7 @@ header{
 }
 #header_genres{
 	list-style: none;
-	background-color: olive;
+	background-color: darkolivegreen;
 	width: 20%;
 	position: absolute;
 	z-index: 51;
