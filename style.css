@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.notdisp{
+	display: none;
+}
+
+/* ヘッダー*/
+header{
+	height: 150px;
+	width: 100%;
+	background-color: darkolivegreen;
+	margin-bottom: 20px;
+}
+
+
+.lscn-box{
+	height: 100px;
+	width: 80%;
+	margin:  0 auto;
+}
+.logo{
+	height: 100px;
+	width:30%;
+	float: left;
+}
+.logo img{
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+.ll{
+	height: 150px;
+	width:150px;
+	background-image: url(img/ll.png);
+	background-size: cover;
+	float: left;
+}
+.lr{
+	height: 150px;
+	width: 150px;
+	color: white;
+	float: left;
+	font-size: 30px;
+	padding-top: 30px;
+}
+.s-box{
+	height: 90px;
+	width: 35%;
+	float: left;
+	margin-top: 10px;
+}
+.s-form{
+	height: 28px;
+	width: 90%;
+}
+.s-op{
+	float: left;
+	height: 22px;
+	margin-top:5px;
+}
+.s-button{
+	float: right;
+	height: 22px;
+	width:35px;
+	margin: 5px 40px 0 0;
+}
+.cart{
+	height: 90px;
+	width: 35%;
+	float:left;
+	margin-top: 10px;
+	border: 2px solid #ffffff;
+}
+.cart:hover{
+	background-color: olive;
+}
+.cart-left{
+	height: 90px;
+	width: 30%;
+	float: left;
+	padding: 5px;
+}
+.i-box{
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	color: #ffffff;
+}
+.carticon{
+	font-size: 25px;
+}
+.cart-center{
+	height: 90px;
+	width: 20%;
+	color: white;
+	float: left;
+	padding: 5px;
+}
+.cart-right{
+	height: 90px;
+	width:50%;
+	color: white;
+	float: left;
+	padding: 5px;
+}
+.nav-list{
+	float: left;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+	margin: 5px 0;
+	
+}
+.nav-list-item{
+	height: 40px;
+	width: 25%;
+	list-style: none;
+  	float: left;
+  	line-height: 40px;
+  	background-color: white;
+}
+.nav-list-item:hover{
+	background-color: #c7c7c7;
+}
+#header_genres{
+	list-style: none;
+	background-color: #c7c7c7;
+	width: 20%;
+	position: absolute;
+	z-index: 51;
+}
+#header_genres li:hover{
+	background-color: aliceblue;
+}
+
+/* 商品詳細ページ */
+
+.product-show-box{
+	width: 80%;
+	margin:0 auto;
+}
+.p-inbc{
+	height: 406px;
+	width: 80%;
+	margin-bottom:40px;
+}
+.p-title{
+	width: 300px;
+	background-color: whitesmoke;
+	margin-bottom: 10px;
+}
+.top_products_line{
+	border: solid 1px lightskyblue;
+	margin: 30px 0;
+}
+.product-image{
+	width: 360px;
+	height: 360px;
+	float: left;
+	background-image: url(img/cdimage.png);
+	background-size: cover;
+	margin-right: 20px;
+}
+.p-nb{
+	height: 360px;
+	width: 400px;
+	margin-right: 20px;
+	float: left;
+}
+.product-name{
+	height: 63px;
+	width: 400px;
+	background-color: whitesmoke;
+	margin-bottom: 20px;
+}
+.benefit{
+	height: 277px;
+	width: 400px;
+	background-color: whitesmoke;
+}
+.cart-box{
+	height: 360px;
+	width: 20%;
+	float: left;
+	background-color: green;
+}
+.p-info{
+	height: 160px;
+	width: 80%;
+}
+table , td, th {
+	border: 1px solid #595959;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 3px;
+	width: 125px;
+	height: 25px;
+}
+th {
+	background: #f0e6cc;
+}
+.even {
+	background: #fbf8f0;
+}
+.odd {
+	background: #fefcf9;
+}
+.p-music{
+height: 360px;
+width: 100px;
+margin-bottom: 40px;
+}
+.p-music-table{
+	height: 320px;
+	width:  80%;
+}
+.p-review-box{
+	height: 750px;
+	width: 80%;
+	margin-bottom: 40px;
+}
+.post-review{
+	height: 300px;
+	width: 80%;
+	background-color: whitesmoke;
+	border: outset;
+	margin-bottom: 20px;
+}
+.border-box{
+	float: left;
+	height: 50px;
+	border-left: 2px solid #000000;
+}
+
+/* トップページ */
+.toppage{
+	width: 80%;
+	margin: 0 auto;
+}
+.top-cm{
+	height: 325px;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.cm1{
+	height: 325px;
+	width: 80%;
+	background-image: url(img/live.jpg);
+	background-size: cover;
+}
+.cm2{
+	height: 325px;
+	width: 80%;
+	background-image: url(img/megane.png);
+	background-size: cover;
+}
+.cm3{
+	height: 325px;
+	width: 80%;
+	background-image: url(img/neko.jpg);
+	background-size: cover;
+}
+.cm4{
+	height: 325px;
+	width: 80%;
+	background-image: url(img/make.jpg);
+	background-size: cover;
+}
+.top-new{
+	height: 36px;
+	padding-left: 10px;
+}
+.new-box{
+	height: 325px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.product-box{
+	width: 25%;
+	float: left;
+	padding: 10px;
+}
+.product-box a{
+	text-decoration: none;
+}
+.product-box img{
+	/* 画像の縦横比をdivの幅に合わせる */
+	width:auto;
+	height:auto;
+	max-width:100%;
+	max-height:100%;
+	/* 画像の位置が中心になるように */
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.product-box:hover{
+	background-color: rgb(164, 225, 250);
+}
+.p-image{
+	height: 235px;
+	width: 100%;
+	position: relative;
+}
+.p-stat{
+	height: 70px;
+	width: 100%;
+	background-color: whitesmoke;
+	margin-top:10px;
+}
+
+/* footer */
+
+footer{
+	width: 100%;
+	background-color: darkolivegreen;
+}
+.sicn{
+	height: 250px;
+	width: 80%;
+	margin: 0 auto;
+}
+.f-nav{
+	height: 50px;
+}
+.f-nav-list{
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	float: left;
+}
+.f-nav-list-item{
+	height: 50px;
+	width: 20%;
+	list-style: none;
+	line-height: 50px;
+  	float: left;
+	background-color: white;
+}
+.f-nav-list-item a{
+	display: block;
+	text-decoration: none;
+}
+.f-nav-list-item:hover{
+	background-color: #c7c7c7;
+}
+.kabusiki{
+	height: 150px;
+	width: 33%;
+	padding-top: 10px;
+	float: left;
+}
+.f-icon-box{
+	height: 150px;
+	width: 33%;
+	float: left;
+	padding-top: 30px;
+	text-align: center;
+}
+.f-icon1{
+	font-size: 60px;
+}
+.f-icon2{
+	font-size: 60px;
+	margin: 0 35px;
+}
+.f-icon3{
+	font-size: 60px;
+}
+.contact{
+	height: 150px;
+	width: 34%;
+	float: left;
+}
+h1{
+	margin: 50px 0;
+}
+.aaa{
+	text-align: center;
+	background-color: olivedrab;
+}

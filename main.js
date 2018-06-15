@@ -1,4 +1,15 @@
 $(document).ready(function () {
+// headerで使用
+// 
+    $('.nav_list_genre').on('mouseenter', function () {
+        $('#header_genres').removeClass('notdisp');
+    });
+    $('.nav_list_genre').on('mouseleave', function () {
+        $('#header_genres').addClass('notdisp');
+    });
+
+// disc_track_touroku.htmlで使用
+// 
     var discNo = 1;
     var trackNo = 1;
 

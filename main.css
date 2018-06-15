@@ -7,20 +7,21 @@
     display: block;
     clear: both;
 }
+.notdisp{
+    display: none;
+}
 
 /* admin.html用 */
 .admin_top{
-    background-color: sandybrown;
     width: 100%;
+    background-color: mintcream;
 }
 .admin_menu_box{
-    background-color: cyan;
     width: 80%;
     margin: 0 auto;
     padding: 30px 0;
 }
 .user_search_box{
-    background-color: whitesmoke;
     height: 30px;
     width: 200px;
     float: left;
@@ -37,67 +38,79 @@
     font-size: 18px;
 }
 .admin_menu{
-    /* list-style-type: hiragana-iroha; */
     list-style-type: none;
-    background-color: blue;
 }
 .admin_menu_list{
-    background-color: pink;
-    padding-bottom: 5px;
+    margin: 10px 0;
     font-size: 20px;
     line-height: 30px;
 }
+.admin_menu_list:hover{
+    background-color: lightblue;
+}
+.admin_menu_list a{
+    text-decoration: none;
+    display: block;
+}
 
+/* product_touroku.html */
 .syouhintouroku_base{
-    background-color: lightsalmon;
+    background-color: mintcream;
     width: 100%;
+    padding-bottom: 50px;
 }
 .syouhintouroku_box{
-    background-color: yellow;
     margin: 0 auto;
-    width: 60%;
+    width: 80%;
 }
 .jacket{
-    height: 500px;
+    height: 400px;
     width: 30%;
     float: left;
-    background-color: aqua;
     padding-top: 50px;
 }
 .product_info{
-    height: 500px;
+    height: 400px;
     width: 70%;
     padding-top: 50px;
     font-size: 20px;
     display: inline-block;
-    background-color: chartreuse;
 }
 .product_hozon{
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
-    background-color: violet;
     text-align: center;
+}
+.product_hozon a{
+    text-decoration: none;
 }
 .product_hozon button{
     font-size: 24px;
 }
 
 /* Disc_Track_touroku.html */
-
+.product_name{
+    width: 80%;
+    margin: 0 auto;
+}
 .disc_track_touroku_base{
     width: 100%;
-    background-color: coral;
+    background-color: mintcream;
     padding: 50px 0;
 }
 .disc_touroku{
-    width: 90%;
-    background-color: aquamarine;
+    width: 80%;
+    background-color: lightgreen;
     margin: 0 auto;
     border: 1px solid;
 }
-.d_disc{
+.disc_touroku input, .disc_touroku select{
+    height: 24px;
+}
+.d_disc, .d_type{
     display: inline;
     margin-right: 10px;
+    font-size: 24px;
 }
 .d_type{
     display: inline;
@@ -106,7 +119,7 @@
 .track_touroku{
     width: 90%;
     margin: 0 auto;
-    background-color: gold;
+    background-color: mintcream;
     border: 1px solid;
 }
 .track_number{
@@ -125,11 +138,11 @@
     margin-top: 30px;
     text-align: center;
 }
+.add_disc_button{
+    margin-right: 30px;
+}
 .disc_track_submit button{
     font-size: 24px;
-}
-.notdisp{
-    display: none;
 }
 
 /* contact_ichiran */
@@ -162,12 +175,12 @@
     text-align: center;
 }
 .open_contacts{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     background-color: navajowhite;
 }
 .processing_contacts{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     background-color: thistle;
 }
@@ -179,17 +192,19 @@
 /* product_stock.html */
 
 .product_stock_base{
-    background-color: rgba(255, 217, 0, 0.493);
+    background-color: mintcream;
     width: 100%;
 }
 .stock_table{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     padding-top: 30px;
-    background-color: rgba(127, 255, 212, 0.507);
 }
 .stock_table table{
     width: 100%;
+}
+.stock_table tr:hover{
+    background-color: lightgreen;
 }
 .t_product_stock_id, .t_product_stock_stock, .t_product_stock_sell{
     width: 10%;
@@ -202,6 +217,7 @@
 }
 .t_product_stock_name a{
     text-decoration: none;
+    display: block;
 }
 .p_s_pagi{
     text-align: center;
@@ -209,17 +225,19 @@
 
 /* user_ichiran.html */
 .user_ichiran_base{
-    background-color: rgba(255, 217, 0, 0.514);
+    background-color: mintcream;
     width: 100%;
 }
 .users_table{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     padding-top: 30px;
-    background-color: rgba(127, 255, 212, 0.644);
 }
 .users_table table{
     width: 100%;
+}
+.users_table tr:hover{
+    background-color: lightgreen;
 }
 .t_user_ichiran_id, .t_user_ichiran_show, .t_user_ichiran_edit, .t_user_ichiran_destroy{
     width: 12%;
@@ -232,4 +250,5 @@
 }
 .t_user_ichiran_name a{
     text-decoration: none;
+    display: block;
 }
