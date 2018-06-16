@@ -26,8 +26,8 @@
                     <h1 class="box-title">決済方法</h1>
                     <div class="payment-inbox">
                         <div class="payment-field-box">
-                            <input type="radio" name="payment" value="cash-on-delivery"> 代引き<br>
-                            <input type="radio" name="payment" value="creditcard"> クレジットカード
+                            <input type="radio" id="cash-on-delivery" name="payment" value="cash-on-delivery"><label for="cash-on-delivery">代引き</label><br>
+                            <input type="radio" id="creditcard" name="payment" value="creditcard"><label for="creditcard">クレジットカード</label>
                             <div class="card-form">
                                 <div class="field-span">
                                     <label for="card-user-name">カード名義人(半角ローマ字)</label><br>
@@ -85,7 +85,7 @@
                     </div>
                 </div>
             <div class="button-box">
-                    <div class="right-button">確認画面</div>
+                    <div class="right-button"><a href="last-check.html">確認画面</a></div>
             </div>
         </div>
         <div class="footer">

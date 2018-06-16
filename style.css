@@ -190,7 +190,6 @@ header{
 .star-rating {
 	position: relative;
 	width: 5em;
-	height: 1em;
 	font-size: 25px;
   
   }
@@ -214,6 +213,28 @@ header{
 	width: 25%;
 	float: left;
 	background-color: lightcyan;
+	text-align: center;
+}
+.cart_error_message{
+	margin: 20px 0;
+	color: red;
+	font-style: initial;
+}
+.cart_buy p,.cart_buy input{
+	display: inline;
+}
+.cart_buy input{
+	width: 50px;
+}
+.add_cart_button{
+	margin: 10px auto;
+	display: block;
+	
+}
+.add_cart_button a{
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
 }
 .p-info{
 	height: 160px;
@@ -247,11 +268,13 @@ margin-bottom: 40px;
 	margin-bottom: 40px;
 }
 .post-review{
-	height: 300px;
 	width: 100%;
 	background-color: whitesmoke;
 	border: outset;
 	margin-bottom: 20px;
+}
+.post-review p{
+	font-size: 16px;
 }
 .post-review input{
 	width: 20%;
@@ -261,8 +284,42 @@ margin-bottom: 40px;
 }
 .my_review_text{
 	resize: none;
-	width: 90%;
+	width: 100%;
+	padding: 2px;
+	font-size: 16px;
 }
+/* 星マークでの評価機能 */
+.evaluation{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+  }
+  .evaluation input[type='radio']{
+	display: none;
+  }
+  .evaluation label{
+	position: relative;
+	padding: 10px 5px 0;
+	color: gray;
+	cursor: pointer;
+	font-size: 24px;
+  }
+  .evaluation label .text{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	text-align: center;
+	font-size: 12px;
+	color: gray;
+  }
+  .evaluation label:hover,
+  .evaluation label:hover ~ label,
+  .evaluation input[type='radio']:checked ~ label{
+	color: #ffcc00;
+  }
+  /* ここまで星マーク */
+
 .border-box{
 	float: left;
 	height: 50px;
@@ -308,9 +365,8 @@ margin-bottom: 40px;
 	padding-left: 10px;
 }
 .new-box{
-	height: 325px;
+	height: 335px;
 	width: 100%;
-	margin-bottom: 10px;
 }
 .product-box{
 	width: 25%;
@@ -344,7 +400,7 @@ margin-bottom: 40px;
 }
 .p-stat{
 	width: 100%;
-	margin:10px 0;
+	margin-top: 10px;
 }
 .discs_and_tracks{
 	margin: 5px 0;

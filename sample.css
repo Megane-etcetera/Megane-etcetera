@@ -94,6 +94,10 @@ body{
     border-radius: 10px;
     background-color: #EEEEEE
 }
+.order-show-box a{
+	text-decoration: none;
+	color: black;
+}
 
 .mini-box{
 	height: 85px;
@@ -250,12 +254,18 @@ table{
 	background-color: grey;
 	text-align: center;
 }
+.left-button a{
+	text-decoration: none;
+	line-height: 50px;
+	display: block;
+	color: white;
+}
 
 .right-button{
 	width: 200px;
     display: inline-block;
     margin: 0 auto;
-    padding: 0.5em 1em;
+    /* padding: 0.5em 1em; リンクを張るのにちょっと邪魔なので一旦コメントアウト */
     text-decoration: none;
     background: #668ad8;/*ボタン色*/
     color: #FFF;
@@ -265,6 +275,12 @@ table{
     position: absolute;
 	right: 0;
 	bottom: 0px;
+}
+.right-button a{
+	text-decoration: none;
+	display: block;
+	color: white;
+	line-height: 44px;
 }
 
 .right-button:active {/*ボタンを押したとき*/
@@ -444,7 +460,6 @@ table{
 }
 
 .Addressee-inbox{
-	height: 95px;
 	width: 80%;
 	margin: 0 auto;
 	-moz-border-radius: 5px;
@@ -526,7 +541,11 @@ table{
     border-radius: 3px;
     text-align: center;
 }
-
+.center-button a{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
 .addressee-payment-box{
 	height: 410px;
 }
@@ -564,7 +583,7 @@ table{
 /*決済完了ページ*/
 
 .thanks-box{
-	height: 800px;
+	height: 600px;
 	width: 100%;
 	position: relative;
 }
@@ -591,6 +610,12 @@ table{
 	bottom: 0;
 	left: 0;
 	margin: auto;
+	color: white;
+}
+.thanks-messege img{
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
 }
 
 .show-button{
@@ -601,5 +626,10 @@ table{
 	right: 0;
 	bottom: 0;
 	background-color: grey;
+}
+.show-button a{
+	text-decoration: none;
+	display: block;
+	color: white;
 }
 
