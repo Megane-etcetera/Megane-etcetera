@@ -10,6 +10,19 @@
 .notdisp{
     display: none;
 }
+/* admin共用 */
+.admin_back_to_menu{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: tomato;
+}
+.admin_back_to_menu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 24px;
+}
 
 /* admin.html用 */
 .admin_top{
